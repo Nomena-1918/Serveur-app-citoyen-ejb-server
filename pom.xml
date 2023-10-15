@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.ejb</groupId>
+    <artifactId>Citoyen_ejb_server</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>Citoyen_ejb_server</name>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>javax.ejb</groupId>
+            <artifactId>javax.ejb-api</artifactId>
+            <version>3.2.2</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.6.0</version>
+        </dependency>
+    </dependencies>
+
+    <!--
+     mvn install:install-file -Dfile=/Users/nomena/S5/Mr-Tahina/Citoyen_ejb_server/target/Citoyen_ejb_server-1.0-SNAPSHOT.jar -DgroupId=com.citoyen -DartifactId=citoyen-ejb -Dversion=1.0 -Dpackaging=jar
+     -->
+
+    <build>
+        <plugins>
+        </plugins>
+    </build>
+</project>

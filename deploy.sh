@@ -1,0 +1,1 @@
+cp "/Users/nomena/S5/Mr-Tahina/Citoyen_ejb_server/Citoyen_businness_interface/target/Citoyen_businness_interface-1.0-SNAPSHOT.jar"  "/Users/nomena/S5/Mr-Tahina/Citoyen_ejb_server/src/lib"
